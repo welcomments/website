@@ -1,0 +1,18 @@
+testimonials:
+  - person: Jan Klosowski
+    person_title: Founder, [Deltabadger](https://deltabadger.com)
+    avatar: img/jan-deltabadger.webp
+    company_name: Deltabadger
+    company_logo: img/deltabadger.svg
+    quote: |
+      Iiro is a really nice friend and makes great pizza.
+      Don't know about his product though, I wouldn't trust my credit card details
+      with a guy who impulse buys a 400€ water filter in a country with clean water supply.
+  - person: Iiro Krankka
+    person_title: Blogger, [iiro.dev](https://iiro.dev/2018/01/28/implementing-adaptive-master-detail-layouts/#welcomments__container)
+    avatar: img/iiro.jpeg
+    company_name: IiroMan OÜ
+    quote: |
+      I've been using Welcomments on my Jekyll blog for a while.
+      My articles load faster than ever.
+      I can even reply to comments on my Nokia 2720.

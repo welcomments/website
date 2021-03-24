@@ -1,0 +1,14 @@
+howitworks:
+  - title: 1. Someone posts a comment
+    description: |
+      Your comment form points to `welcomments.io/api/comments`.
+      Upon receiving the comment, we handle all of the validation, spam checking, sanitization, and other behind-the-scenes ceremony.
+  - title: 2. We deliver it to your GitHub repository
+    description: |
+      After processing the comment, we turn it into a JSON file and commit it to `_data/<page-slug>/<id>.json` on the
+      main branch of your GitHub repository. We also handle retrying and temporarily storing the comment for you if GitHub is being sassy.
+  - title: 3. The comment becomes 100% static HTML
+    description: |
+      Netlify (or similar) detects the recently committed JSON file and rebuilds your site.
+      Your static site generator renders the JSON as HTML.
+      The site gets deployed and the comment is now embedded as fully static HTML inside your blog post.

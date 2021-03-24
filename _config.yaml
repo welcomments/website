@@ -1,0 +1,47 @@
+title: Welcomments
+tagline: Fully static comments for Jekyll, Hugo, Eleventy (11ty) and more.
+description: |
+  Welcomments helps you build lightweight, fast, and SEO-friendly
+  comment sections for your site. It works with Jekyll, Hugo,
+  Eleventy (11ty) and lets you store your comments in your GitHub
+  repository alongside your articles. The comments will be rendered
+  as 100% static HTML.
+url: https://welcomments.io
+author:
+  twitter: welcomments
+twitter:
+  username: welcomments
+  card: summary
+social:
+  name: Welcomments
+  links:
+    - https://twitter.com/welcomments
+    - https://github.com/welcomments
+
+# Build settings
+port: 4002
+markdown: kramdown
+plugins:
+  - jekyll-postcss
+  - jekyll-purgecss
+  - jekyll-seo-tag
+
+include:
+  - _redirects
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - yarn.lock
+  - package.json
+  - package-lock.json
+  - serve_m1.sh
+  - firebase.json
+  - deploy.sh
+  - README.md
+  - postcss.config.js
+  - purgecss.config.js
+  - netlify.toml
+  - bin
+  - .gitignore

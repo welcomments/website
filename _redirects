@@ -1,0 +1,4 @@
+/blog/*         https://boring-yonath-2f4381.netlify.app/:splat       200
+/elixir-api/*   https://welcomments.gigalixirapp.com/api/:splat       200
+/api/style.css  https://server-ncqyzjeasq-uc.a.run.app/api/style.css  200
+/api/*          https://server-ncqyzjeasq-uc.a.run.app/api/:splat     200

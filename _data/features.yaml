@@ -1,0 +1,35 @@
+label: Everything you need
+title: All you could hope from a static site commenting system. And then some more.
+features:
+  - title: Easy and fast setup
+    description: |
+      Start receiving comments on your JAMStack site in minutes, not hours.
+  - title: Bulletproof spam protection
+    description: |
+      We use [Akismet](https://akismet.com/). Being the go-to spam protection system for Wordpress, they kinda have a track record
+      when it comes to fighting spam.
+  - title: Fully customizable
+    description: |
+      Since there's no iframes or other funky business, you can fully style the comments to match your own website.
+  - title: Email notifications
+    description: |
+      Get notifications about new comments and let your visitors get notified about replies. Only if you want to, that is.
+  #- title: JSON in, HTML out
+  #  description: |
+  #    Every comment is stored as a JSON file in your GitHub repository.
+  #    Your static site generator renders it as fully static HTML.
+  #    We provide templates for Jekyll, Hugo, Eleventy, and more.
+  - title: SEO-friendly
+    description: |
+      Because the comments are rendered as static HTML, search engines have no problem indexing their content.
+  - title: Modest Javascript
+    description: |
+      Our optional JS snippet is **only 2.1 kB**, making it the tiniest Javascript snippet on the comment system market.
+  - title: Courier, not a deposit box
+    description: |
+      We deliver the comments safely to your GitHub repository, but after that, you don't need to phone our servers to
+      display them on your site.
+  - title: No Disqus-ting stuff
+    description: |
+      We're a comment system, not an ad network or data miner. We hate ads and wouldn't know how to mine data even if
+      someone threatened to tickle our feet, so you're safe with us.

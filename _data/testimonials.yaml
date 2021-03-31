@@ -16,3 +16,13 @@ testimonials:
       I've been using Welcomments on my Jekyll blog for a while.
       My articles load faster than ever.
       I can even reply to comments on my Nokia 2720.
+  - person: Nathan Lovato
+    avatar: img/nathan-gdquest.svg
+    company_name: GDQuest.com
+    person_title: Founder of
+    company_url: https://www.gdquest.com/
+    quote: |
+      Welcomments is exactly the comment system I was looking for: lightweight, secure, and easy to use.
+      The setup was effortless: all it took were a few clicks and some copy-paste.
+      In just a few minutes, I had comments working.
+      Really glad I found it. 😄

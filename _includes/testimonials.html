@@ -1,4 +1,4 @@
-{% assign testimonial = site.data.testimonials.testimonials[1] %}
+{% assign testimonial = site.data.testimonials.testimonials[2] %}
 
 <section class="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24">
   <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -26,7 +26,10 @@
                 <path d="M11 0h3L9 20H6l5-20z" />
               </svg>
 
-              <div class="text-base font-medium text-gray-500">{{ testimonial.person_title | markdownify }}</div>
+              <div class="text-base font-medium text-gray-500">
+                {{ testimonial.person_title }}
+                <a href="{{ testimonial.company_url}}" target="_blank" class="underline">{{ testimonial.company_name }}</a>
+              </div>
             </div>
           </div>
         </footer>

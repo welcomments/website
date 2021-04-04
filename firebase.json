@@ -1,0 +1,24 @@
+
+{
+  "hosting": {
+    "site": "welcomments-2",
+    "public": "_site",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [{
+      "source": "/api/style.css",
+      "destination": "https://server-ncqyzjeasq-uc.a.run.app/api/style.css",
+      "type": 302
+    }],
+    "rewrites": [{
+      "source": "/api/**",
+      "run": {
+        "serviceId": "server",
+        "region": "us-central1"
+      }
+    }]
+  }
+}

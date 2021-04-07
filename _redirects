@@ -5,4 +5,4 @@
 /console/*      https://welcomments-console.web.app/:splat                 200
 /cdn/*          https://welcomments-cdn-1.web.app/:splat                   200
 /blog/*         https://boring-yonath-2f4381.netlify.app/:splat            200
-/comments     https://server-ncqyzjeasq-uc.a.run.app/api/comments        200
+/comments       https://server-ncqyzjeasq-uc.a.run.app/api/comments        200

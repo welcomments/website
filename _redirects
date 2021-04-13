@@ -1,4 +1,4 @@
-/beta-console/  https://welcomments.gigalixirapp.com/:splat                200
+/beta-console/* https://welcomments.gigalixirapp.com/:splat                200
 /beta-api/*     https://welcomments.gigalixirapp.com/api/:splat            200
 /api/style.css  https://server-ncqyzjeasq-uc.a.run.app/api/style.css       200
 /api/*          https://server-ncqyzjeasq-uc.a.run.app/api/:splat          200

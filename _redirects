@@ -7,3 +7,4 @@
 /blog/*         https://boring-yonath-2f4381.netlify.app/:splat            200
 /comments       https://welcomments.io/api/comments                        200
 /comments/*     https://welcomments.io/api/comments/:splat                 200
+/*              https://welcomments.gigalixirapp.com/:splat                200

@@ -1,5 +1,6 @@
 title: Welcomments
 tagline: Fully static comments for Jekyll, Hugo, Eleventy (11ty) and more.
+permalink: /blog/:title
 description: |
   Welcomments helps you build lightweight, fast, and SEO-friendly
   comment sections for your site. It works with Jekyll, Hugo,
@@ -17,6 +18,8 @@ social:
   links:
     - https://twitter.com/welcomments
     - https://github.com/welcomments
+feed:
+  path: /blog/feed.xml
 
 # Build settings
 port: 4002

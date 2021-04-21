@@ -1,0 +1,10 @@
+{
+  "author": {
+    "name": "Iiro Krankka",
+    "website": "https://welcomments.io"
+  },
+  "date": "2021-04-21T20:20:04Z",
+  "id": "004PT2JVX3E8MPYWS00XCYM992",
+  "message": "Just in case you're unfamiliar with how Welcomments works - it delivers every comment as a JSON file to a GitHub repository. Then Netlify rebuilds your Jekyll or Hugo website, and the comment will be pre-rendered as 100% static HTML.\n\nFor example, [the JSON file for the parent comment is here](https://github.com/welcomments/website/blob/master/_data/welcomments/april-2021-recap/004PT2BGY10PZVJGSGZDN3BJ0X.json). There's no Javascript used to render it - view the source of this web page for proof!\n\nYou can completely disable Javascript and the comment will be displayed just fine. Commenting and replying without Javascript is also fully supported!",
+  "replying_to": "004PT2BGY10PZVJGSGZDN3BJ0X"
+}

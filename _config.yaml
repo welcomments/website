@@ -28,6 +28,8 @@ plugins:
   - jekyll-postcss
   - jekyll-purgecss
   - jekyll-seo-tag
+  - jekyll-twitter-plugin
+  - jekyll-youtube
 
 include:
   - _redirects

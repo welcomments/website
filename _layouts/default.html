@@ -13,25 +13,6 @@
 <section>
     {{ content }}
 </section>
-<script type="text/javascript">
-    (function () {
-        window.addEventListener('DOMContentLoaded', function () {
-            var links = document.getElementsByClassName('plausible-link');
-            for (var i = 0; i < links.length; i++) {
-                (function (link) {
-                    link.addEventListener('click', function (e) {
-                        e.preventDefault();
-                        plausible(link.getAttribute('data-plausible-event-name'), {
-                            callback: function () {
-                                window.location.href = link.href;
-                            }
-                        });
-                    });
-                })(links[i]);
-            }
-        })
-    })();
-</script>
 </body>
 </html>
 

@@ -8,6 +8,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-twitter-plugin"
   gem "jekyll-youtube"
+  gem "jekyll-feed"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

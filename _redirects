@@ -1,6 +1,4 @@
-http://blog.welcomments.io/*     https://welcomments.io/blog/:splat              301!
-https://blog.welcomments.io/*    https://welcomments.io/blog/:splat              301!
-
-/comments                        https://welcomments.io/api/comments             200
-/comments/*                      https://welcomments.io/api/comments/:splat      200
-/*                               https://welcomments.gigalixirapp.com/:splat     200
+/feed.xml    /blog/feed.xml                                  200
+/comments    https://welcomments.io/api/comments             200
+/comments/*  https://welcomments.io/api/comments/:splat      200
+/*           https://welcomments.gigalixirapp.com/:splat     200

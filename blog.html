@@ -7,7 +7,7 @@ description: This is the Welcomments blog.
 <div class="pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
   <div class="mt-6 max-w-xl mx-auto">
     {% for post in site.posts %}
-    <div>
+    <div class="pb-24">
       <p class="text-sm text-gray-500">
         <time datetime="{{ post.date | date_to_xml_schema }}">{{ post.date | date: "%-d %B %Y" }}</time>
       </p>

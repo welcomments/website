@@ -2,15 +2,6 @@
   <dl class="mx-auto max-w-3xl my-5 grid gap-5 grid-cols-3">
     <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6">
       <dt class="text-sm font-medium text-gray-500 truncate">
-        Users
-      </dt>
-      <dd class="mt-1 text-3xl font-semibold text-gray-900" id="user-count">
-        16
-      </dd>
-    </div>
-
-    <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6">
-      <dt class="text-sm font-medium text-gray-500 truncate">
         Websites
       </dt>
       <dd class="mt-1 text-3xl font-semibold text-gray-900" id="website-count">
@@ -20,9 +11,18 @@
 
     <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6">
       <dt class="text-sm font-medium text-gray-500 truncate">
+        Spam comments
+      </dt>
+      <dd class="mt-1 text-3xl font-semibold text-gray-900" id="spam-comment-count">
+        107
+      </dd>
+    </div>
+
+    <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6">
+      <dt class="text-sm font-medium text-gray-500 truncate">
         Delivered comments
       </dt>
-      <dd class="mt-1 text-3xl font-semibold text-gray-900" id="comment-count">
+      <dd class="mt-1 text-3xl font-semibold text-gray-900" id="delivered-comment-count">
         117
       </dd>
     </div>
@@ -33,9 +33,9 @@
     (function() {
       function updateCounts() {
           var stats = JSON.parse(this.responseText);
-          document.getElementById('user-count').innerText = stats.users;
           document.getElementById('website-count').innerText = stats.websites;
-          document.getElementById('comment-count').innerText = stats.comments;
+          document.getElementById('spam-comment-count').innerText = stats.spam_comments;
+          document.getElementById('delivered-comment-count').innerText = stats.delivered_comments;
       }
 
       window.addEventListener('DOMContentLoaded', function() {

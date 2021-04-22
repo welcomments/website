@@ -1,0 +1,48 @@
+<div class="px-4 pb-24">
+  <dl class="mx-auto max-w-3xl my-5 grid gap-5 grid-cols-3">
+    <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6">
+      <dt class="text-sm font-medium text-gray-500 truncate">
+        Users
+      </dt>
+      <dd class="mt-1 text-3xl font-semibold text-gray-900" id="user-count">
+        16
+      </dd>
+    </div>
+
+    <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6">
+      <dt class="text-sm font-medium text-gray-500 truncate">
+        Websites
+      </dt>
+      <dd class="mt-1 text-3xl font-semibold text-gray-900" id="website-count">
+        12
+      </dd>
+    </div>
+
+    <div class="px-4 py-5 bg-white shadow rounded-lg overflow-hidden sm:p-6">
+      <dt class="text-sm font-medium text-gray-500 truncate">
+        Delivered comments
+      </dt>
+      <dd class="mt-1 text-3xl font-semibold text-gray-900" id="comment-count">
+        117
+      </dd>
+    </div>
+  </dl>
+</div>
+
+<script type="text/javascript">
+    (function() {
+      function updateCounts() {
+          var stats = JSON.parse(this.responseText);
+          document.getElementById('user-count').innerText = stats.users;
+          document.getElementById('website-count').innerText = stats.websites;
+          document.getElementById('comment-count').innerText = stats.comments;
+      }
+
+      window.addEventListener('DOMContentLoaded', function() {
+          var request = new XMLHttpRequest();
+          request.addEventListener("load", updateCounts);
+          request.open("GET", "https://welcomments.io/api/statistics");
+          request.send();
+      });
+    })();
+</script>

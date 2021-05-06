@@ -8,7 +8,7 @@
         </a>
         <div class="-mr-2 flex items-center md:hidden">
           <button @click="menuOpen = true" type="button"
-                  class="bg-gray-50 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                  class="bg-gray-50 dark:bg-gray-750 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-750 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                   aria-expanded="false">
             <span class="sr-only">Open main menu</span>
             <!-- Heroicon name: outline/menu -->
@@ -46,14 +46,14 @@
   x-transition:leave-start="opacity-100 scale-100"
   x-transition:leave-end="opacity-0 scale-95"
   class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-  <div class="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+  <div class="rounded-lg shadow-md bg-white dark:bg-gray-750 ring-1 ring-black ring-opacity-5 overflow-hidden">
     <div class="px-5 pt-4 flex items-center justify-between">
       <div>
         <img class="h-8 w-auto" src="{{ "img/logo-indigo.svg" | relative_url }}" alt="">
       </div>
       <div class="-mr-2">
         <button @click="menuOpen = false" type="button"
-                class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                class="bg-white dark:bg-gray-700 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
           <span class="sr-only">Close menu</span>
           <!-- Heroicon name: outline/x -->
           <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -65,18 +65,18 @@
     </div>
     <div class="px-2 pt-2 pb-3">
       <a href="/"
-         class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Home</a>
+         class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800">Home</a>
 
       <a href="/pricing"
-         class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Pricing</a>
+         class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800">Pricing</a>
 
       <a href="/blog"
-         class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Blog</a>
+         class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800">Blog</a>
 
       <a href="https://status.welcomments.io"
-         class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Status</a>
+         class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800">Status</a>
     </div>
-    <a href="https://console.welcomments.io/" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100">
+    <a href="https://console.welcomments.io/" class="block w-full px-5 py-3 text-center font-medium text-indigo-600 dark:text-gray-50 bg-gray-50 hover:bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-725">
       Log in
     </a>
   </div>

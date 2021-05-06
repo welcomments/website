@@ -5,23 +5,36 @@
 @import "tailwindcss/components";
 
 @layer components {
-  .private-beta-button,
-  .private-beta-button:visited {
-    @apply bg-gray-900 text-white font-bold inline-block mt-6 py-2 px-4 rounded transform transition ease-in-out duration-200 shadow-none;
-    text-decoration: none !important;
-  }
-
-  .private-beta-button:hover {
-    @apply shadow-2xl;
-  }
-
-  .private-beta-button:focus {
-    @apply outline-none;
-  }
-
-  .private-beta-button:focus:hover {
-    @apply scale-95;
-  }
+    @media (prefers-color-scheme: dark) {
+        .welcomments__comments-title,
+        .welcomments__author-name,
+        .welcomments__comment-message a,
+        .welcomments__comment-form label {
+            color: white !important;
+        }
+        .welcomments__comment-time a time,
+        .welcomments__comment-form p {
+            color: #9ca3af !important;
+        }
+        .welcomments__comment-message {
+            color: #d1d5db !important;
+        }
+        .welcomments__comment-reply-link,
+        .welcomments__comment-form textarea,
+        .welcomments__comment-form input {
+            background-color: #253246 !important;
+        }
+        .welcomments__submit-button {
+            background-color: #2f4059 !important;
+        }
+        .welcomments__comment {
+            border-color: #334052 !important;
+        }
+        .welcomments__comment-form textarea,
+        .welcomments__comment-form input {
+            border-color: #334052 !important;
+        }
+    }
 }
 
 @tailwind utilities;

@@ -1,17 +1,16 @@
-<!-- This example requires Tailwind CSS v2.0+ -->
-<div class="relative bg-white pt-16 pb-32 overflow-hidden">
+<div class="relative bg-white dark:bg-gray-775 pt-16 pb-32 overflow-hidden">
   <div class="relative">
     <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
       <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
         <div>
           <div class="lg:mt-16">
-            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
+            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-50">
               1. Someone posts a comment.
             </h2>
-            <p class="mt-4 text-lg text-gray-500">
+            <p class="mt-4 text-lg text-gray-500 dark:text-gray-300">
               Your comment form points to <code>welcomments.io/api/comments</code>.
             </p>
-            <p class="mt-4 text-lg text-gray-500">
+            <p class="mt-4 text-lg text-gray-500 dark:text-gray-300">
               Your visitor writes their love letter and presses "send".
               We receive the comment and handle all of the validation, spam checking, sanitization, and other
               behind-the-scenes ceremony.
@@ -31,17 +30,17 @@
       <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
         <div>
           <div class="lg:-mt-8">
-            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
+            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-50">
               2. We commit it.
             </h2>
-            <p class="mt-4 text-lg text-gray-500">
+            <p class="mt-4 text-lg text-gray-500 dark:text-gray-300">
               After processing the comment, we turn it into a JSON file.
             </p>
-            <p class="mt-4 text-lg text-gray-500">
+            <p class="mt-4 text-lg text-gray-500 dark:text-gray-300">
               Then we commit the file to the data directory of your static site generator, on the
               main branch of your GitHub repository.
             </p>
-            <p class="mt-4 text-lg text-gray-500">
+            <p class="mt-4 text-lg text-gray-500 dark:text-gray-300">
               We also handle retrying and temporarily storing the comment for you if GitHub is being sassy.
             </p>
           </div>
@@ -59,17 +58,17 @@
       <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
         <div>
           <div class="mt-4">
-            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
+            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-gray-50">
               3. Such HTML. Much static. Wow.
             </h2>
-            <p class="mt-4 text-lg text-gray-500">
+            <p class="mt-4 text-lg text-gray-500 dark:text-gray-300">
               Netlify (or equivalent) rebuilds your site.
             </p>
-            <p class="mt-4 text-lg text-gray-500">
+            <p class="mt-4 text-lg text-gray-500 dark:text-gray-300">
               Your static site generator renders the comment as fully static HTML at the bottom of your article.
               Netlify deploys your site to their CDN as pre-rendered static HTML files that load fast, are SEO-friendly, and cheap to host.
             </p>
-            <p class="mt-4 text-lg text-gray-500">
+            <p class="mt-4 text-lg text-gray-500 dark:text-gray-300">
               We get our hands off and the comment file is fully yours.
             </p>
           </div>

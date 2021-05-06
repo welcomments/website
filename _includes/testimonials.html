@@ -1,15 +1,13 @@
 {% assign testimonial = site.data.testimonials.testimonials[2] %}
 
-<section class="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24">
+<section class="py-12 bg-gray-50 dark:bg-gray-800 overflow-hidden md:py-20 lg:py-24">
   <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-
     <div class="relative">
       {% if testimonial.company_logo %}
       <img class="mx-auto h-8" src="{{ testimonial.company_logo | relative_url }}" alt="{{ testimonial.company_name }}">
       {% endif %}
       <blockquote class="mt-10">
-        <div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
+        <div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900 dark:text-gray-200">
           <p>
             &ldquo;{{ testimonial.quote}}&rdquo;
           </p>
@@ -20,13 +18,13 @@
               <img class="mx-auto h-10 w-10 rounded-full" src="{{ testimonial.avatar | relative_url }}" alt="">
             </div>
             <div class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center">
-              <div class="text-base font-medium text-gray-900">{{ testimonial.person }}</div>
+              <div class="text-base font-medium text-gray-900 dark:text-gray-50">{{ testimonial.person }}</div>
 
               <svg class="hidden md:block mx-1 h-5 w-5 text-indigo-600" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M11 0h3L9 20H6l5-20z" />
               </svg>
 
-              <div class="text-base font-medium text-gray-500">
+              <div class="text-base font-medium text-gray-500 dark:text-gray-400">
                 {{ testimonial.person_title }}
                 <a href="{{ testimonial.company_url}}" target="_blank" class="underline">{{ testimonial.company_name }}</a>
               </div>

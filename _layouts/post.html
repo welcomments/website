@@ -4,13 +4,13 @@ title: Blog
 description: This is the Welcomments blog.
 ---
 
-<div class="relative bg-white overflow-hidden">
+<div class="relative bg-white dark:bg-gray-800 overflow-hidden">
   <div class="relative px-4 sm:px-6 lg:px-8">
-    <div class="mt-6 prose prose-indigo prose-md mx-auto">{{ content }}</div>
+    <div class="mt-6 prose prose-indigo dark:prose-light prose-md mx-auto">{{ content }}</div>
   </div>
 </div>
 <div class="px-4 mt-16 sm:px-6 md:mt-24">
-  <div class="max-w-prose prose-md mx-auto pb-16">
+  <div class="max-w-prose prose-md dark:prose-light mx-auto pb-16">
     {% include welcomments/comments.html website_id = "iOpQCUdBLaojDavmJEr6AN1Pp" %}
   </div>
 </div>

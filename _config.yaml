@@ -27,8 +27,6 @@ plugins:
   - jekyll-postcss
   - jekyll-purgecss
   - jekyll-seo-tag
-  - jekyll-twitter-plugin
-  - jekyll-youtube
   - jekyll-feed
 
 include:

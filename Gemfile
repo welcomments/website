@@ -6,8 +6,6 @@ group :jekyll_plugins do
   gem "jekyll-postcss"
   gem "jekyll-purgecss"
   gem "jekyll-seo-tag"
-  gem "jekyll-twitter-plugin"
-  gem "jekyll-youtube"
   gem "jekyll-feed"
 end
 

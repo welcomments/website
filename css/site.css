@@ -33,6 +33,7 @@
         .welcomments__comment-form textarea,
         .welcomments__comment-form input {
             border-color: #334052 !important;
+            color: #e8e8e8 !important;
         }
     }
 }

@@ -20,6 +20,9 @@ social:
 feed:
   path: /blog/feed.xml
 
+jekyll_tidy:
+  compress_html: true
+
 # Build settings
 port: 4002
 markdown: kramdown
@@ -28,6 +31,7 @@ plugins:
   - jekyll-purgecss
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-tidy
 
 include:
   - _redirects

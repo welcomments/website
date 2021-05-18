@@ -7,6 +7,7 @@ group :jekyll_plugins do
   gem "jekyll-purgecss"
   gem "jekyll-seo-tag"
   gem "jekyll-feed"
+  gem "jekyll-tidy"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -5,6 +5,6 @@
   },
   "date": "2021-04-25T20:00:56Z",
   "id": "004PT465RR2SYZQYC6RZZ4PMR6",
-  "message": "Hi Jim!\n\nThere's now rudimentary support for manual moderation of comments.\n\nWhen turned on, every incoming comment must be manually approved by you in the [Welcomments console](https://app.welcomments.io) before it's published. Right now, you can either approve a comment or delete it.\n\nI would love for you to give it a try and get your feedback on how you like it :-) If you need help with the Disqus migration, please send me some mail at [hello@welcomments.io](mailto:hello@welcomments.io) and I can assist you with that.",
+  "message": "Hi Jim!\n\nThere's now rudimentary support for manual moderation of comments.\n\nWhen turned on, every incoming comment must be manually approved by you in the [Welcomments console](https://console.welcomments.io) before it's published. Right now, you can either approve a comment or delete it.\n\nI would love for you to give it a try and get your feedback on how you like it :-) If you need help with the Disqus migration, please send me some mail at [hello@welcomments.io](mailto:hello@welcomments.io) and I can assist you with that.",
   "replying_to": "01F35HPGNRME3AEJEASW2B17JN"
 }

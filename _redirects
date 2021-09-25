@@ -1,5 +1,6 @@
-/feed.xml    /blog/feed.xml                                  200
-/comments    https://welcomments.io/api/comments             200
-/comments/*  https://welcomments.io/api/comments/:splat      200
-/docs/*      https://keen-nobel-67c5e6.netlify.app/:splat    200
-/*           https://snowy-tree-6716.fly.dev/:splat          200
+https://console.welcomments.io/*   https://app.welcomments.io/:splat               301!
+/feed.xml                          /blog/feed.xml                                  200
+/comments                          https://welcomments.io/api/comments             200
+/comments/*                        https://welcomments.io/api/comments/:splat      200
+/docs/*                            https://keen-nobel-67c5e6.netlify.app/:splat    200
+/*                                 https://snowy-tree-6716.fly.dev/:splat          200

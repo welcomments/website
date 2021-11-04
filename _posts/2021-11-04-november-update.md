@@ -86,7 +86,7 @@ Notably, but not limited to:
 * Users can now unsubscribe from comment reply notification emails by following a link at the bottom of each email
 * We're now adding `rel="nofollow external"` and `target="_blank"` for all links in comment message bodies
 * Blockquotes were not previously working - that's now fixed
-* Faster response times - we moved our servers to Frankfurt, and will add new locations in the future so that the admin console & comments are handled really fast.
+* Faster response times - we moved our servers to Frankfurt, and will add new locations in the future so that the admin console & comments are handled really fast wherever the users are.
 * The admin console should now feel way snappier, but we're still working on it!
 
 We're continuing to add some cool features and polishing the existing experience. Stay tuned!

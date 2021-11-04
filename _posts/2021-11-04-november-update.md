@@ -37,7 +37,7 @@ Switching to dark mode automatically based on the system dark mode would break e
 
 For adding dark mode support for your own Welcomments comment section, you can [use our CSS file for getting started](https://github.com/welcomments/website/blob/abfe51f2a00687d18238356de9990348ff257c09/css/site.css#L8-L37).
 
-# Manual comment moderation
+## Manual comment moderation
 Since the very beginning, Welcomments has used [Akismet](https://akismet.com) for automatic spam protection. And that's still the case.
 However, support for manual comment moderation has been requested quite a few times.
 

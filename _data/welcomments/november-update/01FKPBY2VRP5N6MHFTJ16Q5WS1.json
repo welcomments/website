@@ -1,0 +1,9 @@
+{
+  "author": {
+    "name": "Iiro Krankka",
+    "website": "https://welcomments.io"
+  },
+  "date": "2021-11-04T20:58:35Z",
+  "id": "01FKPBY2VRP5N6MHFTJ16Q5WS1",
+  "message": "Don't be shy, write something!\n\nSince this blog is using Jekyll, all the posts will be rendered as prebuilt static HTML. And since this blog is also using Welcomments with Jekyll, the comments are treated the same way!\n\nEach comment will be committed [to this folder on GitHub](https://github.com/welcomments/website/tree/master/_data/welcomments/april-2021-recap) and Netlify will rebuild the site, resulting in fully static SEO-friendly HTML."
+}

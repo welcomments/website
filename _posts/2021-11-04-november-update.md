@@ -72,6 +72,12 @@ Style it in any way you like.
 
 You also need to have the `https://cdn.welcomments.io/welcomments.js` script tag in the same page - this is automatically added when creating a new Welcomments project.
 
+
+## Work-in-progress documentation
+We now have [a documentation section](https://welcomments.io/docs).
+
+It still needs some love - we'll keep on updating and improving it.
+
 ## Miscellanous improvements
 Welcomments also has gotten tons of bugfixes and small improvements over the last six months.
 

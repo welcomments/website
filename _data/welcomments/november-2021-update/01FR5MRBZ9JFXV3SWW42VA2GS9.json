@@ -1,0 +1,11 @@
+{
+  "author": {
+    "name": "Iiro Krankka",
+    "website": "https://welcomments.io"
+  },
+  "date": "2021-12-30T12:24:09Z",
+  "id": "01FR5MRBZ9JFXV3SWW42VA2GS9",
+  "message": "Hey Juha!\n\nWith eleventy, you could do something like this:\n\n```\n{% for post in posts limit:10 %}\n  \n    <h2>{{ post.data.title }}</h2><p>...</p><p>{{ (welcomments[post.fileSlug] | objectValues).size }} comments</p>\n  \n{% endfor %}\n```\n\nI'll incorporate a nice way to do this into all of the templates eventually :-)",
+  "message_html": "<p>\nHey Juha!</p><p>\nWith eleventy, you could do something like this:</p><pre><code>{% for post in posts limit:10 %}\n  <article class=\"post\">\n    <h2>{{ post.data.title }}</h2>\n    <p>...</p>\n    <p>{{ (welcomments[post.fileSlug] | objectValues).size }} comments</p>\n  </article>\n{% endfor %}</code></pre><p>\nI’ll incorporate a nice way to do this into all of the templates eventually :-)</p>",
+  "replying_to": "01FR0FJ00KEKEZ9N1ERJ4WF53V"
+}

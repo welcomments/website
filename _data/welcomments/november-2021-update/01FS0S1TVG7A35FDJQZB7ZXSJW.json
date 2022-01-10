@@ -1,0 +1,11 @@
+{
+  "author": {
+    "name": "Iiro Krankka",
+    "website": "https://welcomments.io"
+  },
+  "date": "2022-01-10T01:18:43Z",
+  "id": "01FS0S1TVG7A35FDJQZB7ZXSJW",
+  "message": "I did consider Gravatar, but I'm not sure if it's a good idea in 2022 to expose the md5 hashes of users' email addresses to everyone visiting a given site.\n\nI will have to look at the \"proper\" way to add avatars, maybe it's Gravatar, maybe it's something else.",
+  "message_html": "<p>\nI did consider Gravatar, but I’m not sure if it’s a good idea in 2022 to expose the md5 hashes of users’ email addresses to everyone visiting a given site.</p><p>\nI will have to look at the “proper” way to add avatars, maybe it’s Gravatar, maybe it’s something else.</p>",
+  "replying_to": "01FRN5DVZSE0QRHV3Z3Z44KCTG"
+}

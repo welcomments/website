@@ -1,0 +1,9 @@
+{
+  "author": {
+    "name": "ImpressedTester"
+  },
+  "date": "2023-06-22T11:49:50Z",
+  "id": "01H3HF0XTXSNHRXJP3FCGP6283",
+  "message": "The main page isn't clear on whether comments can be _posted_ without the need for JavaScript, which is true of WordPress's built-in comment system.  I'm testing this with NoScript enabled (i.e., all JavaScript disabled for this page), and, so far so good!  Now I'll hit submit to see what happens.",
+  "message_html": "<p>The main page isn’t clear on whether comments can be <em>posted</em> without the need for JavaScript, which is true of WordPress’s built-in comment system.  I’m testing this with NoScript enabled (i.e., all JavaScript disabled for this page), and, so far so good!  Now I’ll hit submit to see what happens.</p>"
+}

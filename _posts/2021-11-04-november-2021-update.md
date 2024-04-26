@@ -55,23 +55,6 @@ Here you'll find all the comments that were automatically flagged as spam.
 
 If for some reason, a comment was wrongly classified as spam, you can publish it with a click of a button.
 
-## Experimental like counter
-For my personal blog, I wanted a simple like counter for each of my articles, so I created one.
-
-It's fully customizable, but here's one way it could look like with copy-pasted Tailwind UI component classes:
-
-<button id="welcomments__like-button" type="button" class="flex items-center justify-center mx-auto p-3 border border-transparent rounded-full shadow-sm text-white font-bold bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 w-16 h-16"></button>
-
-If you'd like to try it out, it's simple - add any element in your page with an id of `welcomments__like-button`:
-
-```html
-<div id="welcomments__like-button"></div>
-```
-
-Style it in any way you like.
-
-You also need to have the `https://cdn.welcomments.io/welcomments.js` script tag in the same page - this is automatically added when creating a new Welcomments project.
-
 
 ## Work-in-progress documentation
 We now have [a documentation section](https://welcomments.io/docs).

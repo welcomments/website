@@ -1,8 +1,0 @@
-{
-  "author": {
-    "name": "test user"
-  },
-  "date": "2021-06-13T23:43:48Z",
-  "id": "01F83W534N3M4PHV614C898BKV",
-  "message": "just testing tables.\n\n| Type     | Aliases                     |\n| -------- | --------------------------- |\n| note     | note, seealso               |\n| abstract | abstract, summary, tldr     |\n| info     | info, todo                  |\n| tip      | tip, hint, important        |\n| success  | success, check, done        |\n| question | question, help, faq         |\n| warning  | warning, caution, attention |\n| failure  | failure, fail, missing      |\n| danger   | danger, error               |\n| bug      | bug                         |\n| example  | example                     |\n| quote    | quote, cite                 |"
-}

@@ -1,8 +1,0 @@
-{
-  "author": {
-    "name": "XSS Master"
-  },
-  "date": "2021-05-02T20:47:38Z",
-  "id": "01F4QDCB04JNH6937NC7WZHEAA",
-  "message": "This is a test of XSS protection\n\njaVasCript:/*-/*`/*\\`/*'/*\"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//\\x3csVg/\\x3e"
-}

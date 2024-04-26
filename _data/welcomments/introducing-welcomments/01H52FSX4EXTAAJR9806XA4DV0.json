@@ -1,9 +1,0 @@
-{
-  "author": {
-    "name": "Jip"
-  },
-  "date": "2023-07-11T12:46:15Z",
-  "id": "01H52FSX4EXTAAJR9806XA4DV0",
-  "message": "This is an attempt at XSS<script>console.log(123)</script>",
-  "message_html": "<p>This is an attempt at XSS&lt;script&gt;console.log(123)&lt;/script&gt;</p>"
-}
